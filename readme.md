@@ -5,7 +5,7 @@ Template for agnular using sass and bootstrap-sass
 ========================================================================
 
 Basic structure:
-
+<pre>
 -- public
     -- media
         -- images
@@ -26,7 +26,7 @@ Basic structure:
             -- bootstrap
             -- fonts
     - index.html
-
+</pre>
 ========================================================================
 Styles:
 
