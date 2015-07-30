@@ -13,8 +13,15 @@ Basic structure:
         -- app
             - app.js
             -- home
+                -- controllers
+                - _module.js
             -- test-feature
+                -- controllers
+                - _module.js
             -- partials
+                -- templates
+                    - home.tpl.html
+                    - testFeature.tpl.html
         -- vendor
     -- styles
         - app.css
