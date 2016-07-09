@@ -4,7 +4,7 @@ Template for agnular using sass and bootstrap-sass
 
 ========================================================================
 
-Basic structure:
+##Basic structure:
 <pre>
 -- public
     -- media
@@ -35,11 +35,11 @@ Basic structure:
     - index.html
 </pre>
 ========================================================================
-Styles:
+##Styles:
 
 Partial sass files ( _bootstrap.scss and _test.scss) are included in app.scss that is being compiled into app.css
 
-Index.html:
+##Index.html:
 
 Index file includes basic html structure with binding to the myApp angular module. It includes js scripts and styles. 
 Index file uses ng-view and $routeProvider for routing.
@@ -47,7 +47,7 @@ Index file contains basic bootstrap working nav.
 Templates for views are in /scripts/partials/templates folder.
 Index file includes twitter and facebook meta tags that need to be updated when used.
 
-Scripts:
+##Scripts:
 
 app.js contains the main app module with the basic routes defined using $routeProvider.
 Modules that are being used for each view are in their own folder ( home folder and test-feature folder) and should contain all the components for the feature/module like controllers, directives, services in respective folders.
