@@ -1,8 +1,19 @@
-Template for agnular using sass and bootstrap-sass
+Template for angular using sass and bootstrap-sass
 
 @author: Dorotka O.
 
 ========================================================================
+
+To run it locally with node:
+npm install http-server
+http-server ./src/public
+
+Or replace the npm server and script with the one from angular 2 template for running the template light
+
+in case you want to fix the npm server 
+https://gist.github.com/DanHerbert/9520689
+
+=======================================================================
 
 Basic structure:
 
